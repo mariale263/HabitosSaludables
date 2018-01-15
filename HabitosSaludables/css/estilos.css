@@ -1,0 +1,66 @@
+header{
+
+	margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+hgroup h1 {
+    text-align: center;
+	font-family: inherit;
+	color: #333333;
+    font-weight: 400;
+	padding: 10px;
+}
+
+hgroup h3{
+	text-align: center;
+    font-family: "Libre Baskerville",serif;
+    font-weight: normal;
+    font-style: normal; 
+
+}
+
+/* Nivel 1*/
+.navbar > .nav
+{
+    
+    text-align: center;
+    
+}
+
+.navbar-inverse {
+    background-color: #fbaa86;
+	font-family: "Libre Baskerville",serif;
+    z-index: 999;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    border-color: #fbaa86;
+    font-size: 150%;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a {
+    color: #444;
+    background-color: #fbaa86;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    
+    background-color: #fbaa86;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #444;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: gray;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+   
+   
+    background-color: #fbaa86;
+}
