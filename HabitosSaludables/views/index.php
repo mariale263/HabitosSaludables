@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Habitos Saludables</title>
     <meta charset="utf-8">
-    <!-- Bootstrap core CSS -->
-    <link href="../../HabitosSaludables/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://localhost/HabitosSaludables/css/estilos.css" />
-    <!-- Custom styles for this template -->
-    <link href="../../HabitosSaludables/css/bootstrap/justified-nav.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    
 
-    <title>Habitos Saludables</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../HabitosSaludables/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="../../HabitosSaludables/css/bootstrap/justified-nav.css" rel="stylesheet">
+
+    <!-- Custom my styles css -->
+    <link rel="stylesheet" type="text/css" href="http://localhost/HabitosSaludables/HabitosSaludables/css/estilos.css" />
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../../HabitosSaludables/js/bootstrap.min.js"></script>
 
-   
   </head>
-
   <body>
-
     <div class="container">
-
       <?php 
           include_once("header.php") 
-			?>
-
+      ?>
       
-
       <!-- Jumbotron -->
       <div class="jumbotron">
         <h1>Marketing stuff!</h1>
@@ -65,7 +63,5 @@
 
     </div> <!-- /container -->
 
-
-   
   </body>
 </html>
