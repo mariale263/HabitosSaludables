@@ -11,7 +11,7 @@
     <meta name="author" content="">
 
     <!-- Bootstrap core CSS -->
-    <link href="../../HabitosSaludables/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/HabitosSaludables/HabitosSaludables/css/bootstrap/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
     <link href="../../HabitosSaludables/css/bootstrap/justified-nav.css" rel="stylesheet">
@@ -19,8 +19,11 @@
     <!-- Custom my styles css -->
     <link rel="stylesheet" type="text/css" href="http://localhost/HabitosSaludables/HabitosSaludables/css/estilos.css" />
     
+    <script src="https://use.fontawesome.com/5e5d7b75f2.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../../HabitosSaludables/js/bootstrap.min.js"></script>
+    <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/bootstrap.min.js"></script>
+    <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/menu.js"></script>
 
   </head>
   <body>
@@ -28,38 +31,61 @@
       <?php 
           include_once("header.php") 
       ?>
-      
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-      </div>
 
-      <!-- Example row of columns -->
+      <!-- Cuerpo de imagen y articulo -->
+            
+			<figure class="imagen1 hidden-xs">
+				<img src="../img/imagenprincipal.jpg" alt="imagen1"></img>
+                    <div class="articuloPrincipal">
+                        <div class="contenedorExterno">
+                            <div class="contenedorInterior">
+                                <article class="articulo1">
+                                    <header class="headerInterno">
+                                        <h1>CAMBIANDO HÁBITOS CON MARIALE</h1>
+                                    </header>
+                                    <div class="contenidoInterno">
+                                        <p>
+                                        Hola soy Mariale, en este blog encontraran todo sobre mi, ¿Quién soy?, mi salud, las bases de mi alimentación, sobre mi perdida de peso, 
+                                        también encontrarán recetas y menús de los platos que consumo a diario.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+            </figure>
+      
+     <!-- Example row of columns -->
       <div class="row">
-        <div class="col-lg-4">
-          <h2>Safari bug warning!</h2>
-          <p class="text-danger">As of v9.1.2, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-4 aside1">
+          <h2 class="guion">TARTA DE AVENA Y PLATANO ESTILO BROWNIE</h2>
+          <a title="tarta de avena y platano estilo brownie" href="#">
+              <img src="../img/tartabrownie.jpg" alt=""></img>
+          </a> 
+          <p><a class="btn btn-primary" href="#" role="button">Leer más &raquo;</a></p>
         </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        
+        <div class="col-lg-4 aside2">
+          <h2 class="guion">AREPAS DE ESPINACAS MUY RICAS Y SALUDABLES (HEALTHY)</h2>
+          <a title="arepas integrales" href="#">
+              <img src="../img/arepasintegrales.jpg" alt=""></img>
+          </a>
+          <p><a class="btn btn-primary" href="#" role="button">Leer más &raquo;</a></p>
        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+
+        <div class="col-lg-4 aside3">
+          <h2 class="guion">CREPS DE HARINA DE TRIGO INTEGRAL Y SEMILLAS DE CHIA</h2>
+          <a title="creps de harina de trigo" href="#">
+              <img src="../img/creps.jpeg" alt=""></img>
+          </a>
+          <p><a class="btn btn-primary" href="#" role="button">Leer más &raquo;</a></p>
         </div>
       </div>
 
       <!-- Site footer -->
       <?php 
           include_once("footer.php") 
-			?>
+        ?>
 
     </div> <!-- /container -->
 
