@@ -23,8 +23,8 @@
               		</li>
               		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recetas</a>
 						<ul class="dropdown-menu">
-							<li class="dropdown subNivel"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Desayunos</a>
-								<ul class="dropdown-menu">
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Desayunos</a>
+								<ul class="dropdown-menu dropdown-menu-right">
 									<li><a href="#">arroz</a></li>
 									<li><a href="#">pollo</a></li>
 									
