@@ -29,15 +29,19 @@
         <?php 
             include_once("header.php") 
         ?>
-    <article>
-    <div class="container-fluid bg-1 text-center">
-      <img src="http://localhost/HabitosSaludables/HabitosSaludables/img/yo.jpg" class="img-circle" alt="Quien soy?" width="128" height="134">
-    </div>
 
-    <div class="container-fluid bg-3 text-center">
-      <header>
-        <h3>¿QUIÉN SOY?</h3>
-      </header>
+      
+    <article>      
+      <div class="container-fluid bg-1 text-center">
+        <br /> 
+        <img src="http://localhost/HabitosSaludables/HabitosSaludables/img/yo.jpg" class="img-circle" alt="Quien soy?" width="128" height="134">
+      </div>
+
+      <div class="container-fluid bg-3 text-center">
+        <header>
+          <h3>¿QUIÉN SOY?</h3>
+        </header>
+        <hr />
       <div>
         <p>Hola, mi nombre es Maria Alejandra, en instagram me conocen como @Mariale_263, soy venezolana, vivo en Madrid desde finales del 2011.</p>
         <p>Siempre he sido gordita, desde los 3 años, he tenido altos y bajos con el peso y siempre se metían conmigo en la escuela.</p>
@@ -50,14 +54,13 @@
         <p>Ante todo busquen ayuda profesional y psicológica si es necesario, viene bien tener ayuda.</p>
       </div>
     </article>
-  </div>
-
-      <!-- Site footer -->
+        <!-- Site footer -->
       <?php 
           include_once("footer.php") 
-        ?>
+      ?>
 
-    </div> <!-- /container -->
+  </div> 
+  <!-- /container -->
 
   </body>
 </html>

@@ -35,7 +35,8 @@
       <!-- Cuerpo de imagen y articulo -->
             
 			<figure class="imagen1 hidden-xs">
-				<img src="../img/imagenprincipal.jpg" alt="imagen1"></img>
+				<img src="../img/OMHY540.jpg" alt="imagen1"></img>
+                <a href='https://www.freepik.es/foto-gratis/mesa-con-ingredientes-para-preparar-pasta-italiana_1077857.htm'>Designed by Freepik</a>
                     <div class="articuloPrincipal">
                         <div class="contenedorExterno">
                             <div class="contenedorInterior">
