@@ -31,6 +31,7 @@
 <!-- Container (Contact Section) -->
 <div class="container-fluid bg-grey">
     <h2 class="text-center">CONTACTO</h2>
+    <form name="frmContacto" method="post" action="http://localhost/HabitosSaludables/HabitosSaludables/controller/contacto.php">
     <div class="row">
         <div class="col-sm-12">
             <div class="row">
@@ -48,11 +49,12 @@
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
             <div class="row">
                 <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                    <button class="btn btn-default pull-right" type="submit">Enviar</button>
                 </div>
             </div>
         </div>
     </div>
+    </form>
 </div>
 <!-- Site footer -->
 <?php 
