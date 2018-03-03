@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Habitos Saludables</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://localhost/HabitosSaludables/HabitosSaludables/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Custom my styles css -->
+    <link rel="stylesheet" type="text/css" href="http://localhost/HabitosSaludables/HabitosSaludables/css/estilosPanel.css" />
+    
+    <script src="https://use.fontawesome.com/5e5d7b75f2.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/bootstrap.min.js"></script>
+    <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/menu.js"></script>
+
+    <!-- include summernote css/js-->
+    <link href="http://localhost/HabitosSaludables/HabitosSaludables/js/summernote.js" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.js"></script>
+    
+
+  </head>
+    <body>
+    <?php 
+            include_once("headerPanel.php") 
+        ?>
+        <div class="relleno-panel">
+                   
+
+        </div>
+    </body>
+</html>
+
+

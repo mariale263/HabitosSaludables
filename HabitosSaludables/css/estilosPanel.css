@@ -1,0 +1,185 @@
+/*body {
+    background-color: pink;
+}
+*/
+.container{
+    width: 100%;
+}
+
+header.header {
+    background-color: #ffccc0;
+    height: 106px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.title {
+    background: #8b5c7e;
+    float: left;
+    width: 276px;
+    height: 106px;
+    position: relative;
+    text-align: center;
+}
+
+.enlace{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.icon-menu {
+    float: left;
+    margin-top: 30px;
+    margin-left: -18px;
+    background: #8b5c7e;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: relative
+}
+
+.fa.fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    padding: 8px 8px 8px 9px;
+    color: #fff;
+}
+
+.nav-boton {
+    float: right;
+    position: relative;
+}
+
+.nav-boton .dropdown-menu.extended.logout {
+    top: 50px;
+}
+
+.nav-boton .username{
+    font-size: 13px;
+}
+
+.dropdown-menu.extended.logout>li>a i {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.dropdown-menu.extended.logout>li>a {
+    padding: 10px;
+}
+
+.dropdown-menu.extended li a {
+    font-size: 12px;
+}
+
+.dropdown-menu>li>a {
+    padding: 4px 12px;
+    color: #333;
+}
+
+ul.boton li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul.boton{
+    margin-top: 26px;
+}
+
+
+ul.boton > li > a {
+    font-size: 16px;
+    background: #8b5c7e;
+    padding: 8px 13px;
+    margin-right: 15px;
+}
+
+a.dropdown-toggle {
+    background-color: #8b5c7e;
+    border-radius: 100px;
+    padding: 0px;
+    margin-right: 46px;
+    border: 1px solid #8b5c7e;
+}
+
+a.dropdown-toggle img {
+    max-width: none;
+    width: 33px;
+}
+
+.search{
+    width: 20px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: 1px solid #8b5c7e;
+    box-shadow: none;
+    background: #8b5c7e url(http://localhost/HabitosSaludables/HabitosSaludables/img/search-icon.png) no-repeat 10px 8px;
+    padding: 0 5px 0 30px;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    cursor: pointer;
+}
+
+nav.menu-vertical {
+    margin: 0 auto;
+    float: left;
+    height: 400px;
+}
+
+ul.menu-padre {
+    padding-left: 0px;
+}
+
+
+.menu-padre li{
+    list-style: none;
+    padding-left: 29px;
+    padding-bottom: 12px;
+    padding-top: 14px;
+}
+
+
+.menu-padre li a, .sub li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.menu-vertical{
+    background-color: #614e46;
+    width: 276px;
+}
+
+.fa{
+    color: #fff;
+}
+
+
+.sub-menu .sub{
+    
+    display: none;
+}
+
+
+/*
+.relleno {
+    background-color: pink;
+    display: flex;
+    height: 400px;
+}*/
+
+
+
+
+

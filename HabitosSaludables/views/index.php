@@ -21,7 +21,7 @@
     
     <script src="https://use.fontawesome.com/5e5d7b75f2.js"></script>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/bootstrap.min.js"></script>
     <script src="http://localhost/HabitosSaludables/HabitosSaludables/js/menu.js"></script>
 
