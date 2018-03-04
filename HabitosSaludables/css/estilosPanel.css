@@ -133,7 +133,7 @@ a.dropdown-toggle img {
 nav.menu-vertical {
     margin: 0 auto;
     float: left;
-    height: 400px;
+    
 }
 
 ul.menu-padre {
@@ -172,12 +172,11 @@ ul.menu-padre {
 }
 
 
-/*
-.relleno {
-    background-color: pink;
-    display: flex;
-    height: 400px;
-}*/
+.relleno-panel {
+    top: 135px;
+    position: absolute;
+    right: 146px;
+}
 
 
 

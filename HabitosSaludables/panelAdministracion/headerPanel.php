@@ -60,9 +60,29 @@
                                 <span>Paginas</span>
                             </a>
                             <ul class="sub">
-                                <li><a href="http://localhost/HabitosSaludables/HabitosSaludables/panelAdministracion/NuevaReceta.php">
+                                <li><a href="http://localhost/HabitosSaludables/HabitosSaludables/panelAdministracion/NuevaPagina.php">
                                     <i class="fa fa-user"></i>
-                                <span>Nueva Receta</span></a></li>
+                                <span>Añadir Pagina</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu"><a href="javascript:;">
+                                <i class="fa fa-desktop nav_icon"></i>
+                                <span>Menú</span>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="http://localhost/HabitosSaludables/HabitosSaludables/panelAdministracion/menu.php">
+                                    <i class="fa fa-user"></i>
+                                <span>Elementos del Menú principal</span></a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li><a href="http://localhost/HabitosSaludables/HabitosSaludables/panelAdministracion/NuevaPagina.php">
+                                    <i class="fa fa-user"></i>
+                                <span>Elementos de los Sub-Menús 1er nivel</span></a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li><a href="http://localhost/HabitosSaludables/HabitosSaludables/panelAdministracion/NuevaPagina.php">
+                                    <i class="fa fa-user"></i>
+                                <span>Elementos de los Sub-Menús 2do nivel</span></a></li>
                             </ul>
                         </li>
                         <li class="sub-menu"><a href="javascript:;">
